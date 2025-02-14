@@ -5,6 +5,23 @@ env/
 .env/
 .venv/
 
+# Ignore Python virtual environments
+venv/
+__pycache__/
+
+# Ignore Node.js dependencies
+node_modules/
+package-lock.json
+
+# Ignore environment variables and API keys
+.env
+config.json
+
+# Ignore logs & caches
+*.log
+*.cache
+
+
 # Python bytecode
 __pycache__/
 *.py[cod]
